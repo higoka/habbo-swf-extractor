@@ -1,0 +1,47 @@
+{
+  "name": "habbo-swf-extractor",
+  "version": "1.0.0",
+  "description": "A small command-line utility tool for extracting Habbo *.swf files.",
+  "keywords": [
+    "habbo-swf-extractor",
+    "habbo-swf-extract",
+    "habbo",
+    "swf",
+    "extractor",
+    "extract",
+    "furnitures",
+    "clothes",
+    "image",
+    "binary",
+    "bin",
+    "xml",
+    "retrotown",
+    "devbest",
+    "ragezone",
+    "krews",
+    "nodejs",
+    "fast",
+    "performance"
+  ],
+  "homepage": "https://github.com/higoka/habbo-swf-extractor",
+  "bugs": {
+    "url": "https://github.com/higoka/habbo-swf-extractor/issues"
+  },
+  "license": "MIT",
+  "author": "Nico Rickenbach",
+  "main": "src/index.js",
+  "bin": {
+    "habbo-swf-extractor": "src/index.js",
+    "swf-extract": "src/index.js",
+    "hse": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/higoka/habbo-swf-extractor.git"
+  },
+  "dependencies": {
+    "@gizeta/swf-reader": "^1.0.0",
+    "jimp": "^0.16.1",
+    "minimist": "^1.2.5"
+  }
+}
